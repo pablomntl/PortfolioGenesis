@@ -887,36 +887,7 @@ footer {
   }
 }
 /* pueba media query*/
-@media screen and (min-width: 1600px) {
-  .home {
-    width: 100%;
-  }
-  .formation {
-    height: auto;
-  }
-  .content {
-    width: 100%;
-    display: block;
-  }
-  .formation-content-title {
-    text-align: center;
-  }
-  .content-information {
-    width: 100%;
-    height: auto;
-    flex-wrap: wrap;
-    padding: 2rem;
-    font-size: 1.2rem;
-    display: flex;
-    justify-content: space-around;
-  }
-  .formation-info {
-    flex: 300px ;
-  }
-  .formation-info {
-    text-align: center;
-  }
-}
+
 /*---------------*/
 @media (max-width: 600px) {
   .experience-logo {
