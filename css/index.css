@@ -135,7 +135,13 @@ section {
   color: var(--font-color);
   background-image: url(../img/back.jpg);
 }
-
+.home-image img {
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 30px;
+  width: 100px;
+  height: 100px;
+}
 .btn-home {
   padding: 8px;
   max-width: 120px;
