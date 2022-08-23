@@ -582,6 +582,9 @@ footer {
     width: 100%;
     display: block;
   }
+  .formation {
+    width: 100%;
+  }
   .formation-content-title {
     text-align: center;
   }
@@ -633,6 +636,7 @@ footer {
   }
 
   .formation {
+    width: 100%;
     display: block;
     justify-content: center;
     align-items: center;
@@ -1009,6 +1013,7 @@ footer {
     background-position: right;
   }
   .formation {
+    width: 100%;
     display: block;
   }
 
