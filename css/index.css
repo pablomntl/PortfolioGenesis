@@ -577,13 +577,15 @@ footer {
 
 
 
-@media screen and (max-width: 850px) {
+@media screen and (min-width: 850px) and (max-width: 1600px) {
   .content {
     width: 100%;
     display: block;
   }
   .formation {
     width: 100%;
+    height: auto;
+    
   }
   .formation-content-title {
     text-align: center;
@@ -637,6 +639,7 @@ footer {
 
   .formation {
     width: 100%;
+    height: auto;
     display: block;
     justify-content: center;
     align-items: center;
@@ -892,7 +895,6 @@ footer {
 }
 /* pueba media query*/
 
-/*---------------*/
 @media (max-width: 600px) {
   .experience-logo {
     display: block;
@@ -1059,3 +1061,6 @@ footer {
     justify-content: space-around;
   }
 }
+
+
+  /*---------------*/
