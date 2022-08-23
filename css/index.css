@@ -880,7 +880,36 @@ footer {
   -webkit-text-fill-color: transparent;
   }
 }
-@media (max-width: 712px) {
+
+@media screen and (max-width: 720px) {
+  .home {
+    width: 100%;
+  }
+  .content {
+    width: 100%;
+    display: block;
+  }
+  .formation-content-title {
+    text-align: center;
+  }
+  .content-information {
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    padding: 2rem;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-around;
+  }
+  .formation-info {
+    flex: 1 1;
+  }
+  .formation-info {
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
   .experience-logo {
     display: block;
     
