@@ -35,7 +35,8 @@
   /* Génesis home-title h1*/
   --home-tittle:  background: #400E7F;
   
-
+   /*Formation-paragraph*/
+   --formation-color:#412020c6;
 }
 
 
@@ -259,11 +260,16 @@ p {
 }
 
 .formation h2,
-.experience h2,
+.content-experience h2,
 .projetos-contenido h2 {
   color: var(--main-color);
+  margin-top: 12px;
+  text-transform: uppercase;
 }
 
+.formation-title p {
+  color: var(--formation-color);
+}
 /* Formación contenido*/
 /* .formation {
   height: 250px;
@@ -559,9 +565,10 @@ footer {
   }
   .formation-info {
     flex: 1;
+    height: 350px;
   }
   .formation-info {
-    width: 200px;
+    
     text-align: center;
     background-color: var(--bg-experience);
   }
@@ -607,10 +614,12 @@ footer {
   }
   .formation-info {
     flex: 1;
+    height: 350px;
   }
-  .formation-info {
+  .formation-info  {
     text-align: center;
   }
+  
   /* .formation-info img {
       display: block;
       margin: 0 auto;
@@ -700,7 +709,7 @@ footer {
     flex: 1;
   }
   .formation-info {
-    width: 300px;
+    width: 350px;
     text-align: center;
     background-color: #cee5d0;
     margin: 4px;
@@ -901,6 +910,7 @@ footer {
     text-align: center;
     background-color: var(--bg-experience);
     margin: 4px;
+    height: 350px;
   }
   .formation-info img {
     display: block;
@@ -1052,6 +1062,7 @@ footer {
   .formation-info {
     width: 100%;
     text-align: center;
+    
   }
   .formation-info img {
     display: block;
